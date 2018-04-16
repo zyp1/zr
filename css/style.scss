@@ -1,0 +1,89 @@
+/*
+* @Author: Marte
+* @Date:   2018-04-13 17:28:05
+* @Last Modified by:   Marte
+* @Last Modified time: 2018-04-13 17:28:09
+*/
+@charset "utf-8";
+*{
+  margin:0px;
+  padding:0px;
+  text-decoration:none;
+  box-sizing:border-box;
+  font-size:.14rem;
+  font-style:normal;
+  font-weight:normal;
+}
+ul,li{
+  list-style:none;
+}
+html{
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    user-select: none;
+    font-size:625%;
+}
+img,div,body,html,ul,li,a{
+ -webkit-touch-callout: none;
+ }
+ input,button{
+ outline:0;
+
+ }
+ button{
+ cursor:pointer;
+ }
+input::-webkit-input-placeholder,textarea::-webkit-input-placeholder {
+    color: #ccc;
+}
+html,body,.wrap{
+  width:100%;
+  height:100%;
+  display:flex;
+  flex-direction:column;
+}
+header p{
+  width:100%;
+  height:.5rem;
+  background:#eb3b47;
+  text-align:center;
+  display:flex;
+  align-items: center;
+}
+header p span{
+  flex:1;
+  color:#fff;
+}
+header p span i.icon{
+  font-size:.24rem;
+}
+header p span input{
+  padding:.08rem;
+  border-radius:.05rem;
+  border:none;
+}
+header p span:nth-child(2){
+  font-size:.14rem;
+}
+header ul{
+  width:100%;
+  height:.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+header ul li{
+  flex:1;
+  text-align: center;
+}
+section #main{
+  width:100%;
+  height:auto;
+}
+section #main ul{
+  width:100%;
+  height:1rem;
+  background:red;
+}
+
